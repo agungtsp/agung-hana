@@ -35,7 +35,7 @@ export const styScrollWrapper = css`
 
     span {
       position: absolute;
-      bottom: 46px;
+      bottom: 25px;
       text-align: center;
       color: #fff;
     }
@@ -43,17 +43,21 @@ export const styScrollWrapper = css`
     .text {
       animation: ${upAndDownAnimation} 1s infinite alternate;
     }
-
+    @media screen and (max-width: 768px) {
+      span{
+        bottom: 65px;
+      }
+    }
     @media screen and (max-width: 414px) {
       .text {
         bottom: 80px;
-        font-size: 12px;
+        font-size: 14px;
       }
     }
 
     @media screen and (max-width: 360px) {
       .text {
-        bottom: 60px;
+        bottom: 62px;
         font-size: 12px;
       }
     }
@@ -62,7 +66,7 @@ export const styScrollWrapper = css`
   .scroll__icon {
     .button {
       position: absolute;
-      bottom: 46px;
+      bottom: 76px;
       left: 50%;
       z-index: 2;
       display: inline-block;
@@ -153,18 +157,18 @@ export const styBackground = css`
 
 export const styWrapper = css`
   color: #fff;
-  margin-top: -8em;
+  margin-top: -7em;
 
   img {
     max-width: 80px;
-    margin-bottom: 24px;
+    margin-bottom: 28px;
   }
 
   h1 {
     margin-bottom: 0px;
     font-size: 100px;
-    line-height: 1.5;
-    font-family: 'Cookie', cursive;
+    line-height: 2;
+    font-family: 'twinkle-dream';
     color: #fff;
   }
 
@@ -207,7 +211,17 @@ export const styWrapper = css`
   a {
     color: #b49e7e;
   }
-
+  @media screen and (max-width: 768px) {
+    margin-top: -12em;
+  }
+  @media screen and (max-height: 700px) and (min-width: 768px) {
+    h1 {
+      line-height: 1.5;
+    }
+    img {
+      margin-bottom: 10px;
+    }
+  }
   @media screen and (max-width: 330px) {
     img {
       max-width: 40px;

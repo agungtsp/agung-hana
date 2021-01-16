@@ -7,7 +7,7 @@ import '@assets/css/icomoon.css';
 import '@assets/css/bootstrap.css';
 import '@assets/css/style.css';
 
-const META_DESCRIPTION = `Dengan memohon Rahmat dan Ridho Illahi, teriring niat menjalankan Sunnah Rasulullah ﷺ untuk membentuk rumah tangga yang Sakinah, Mawaddah wa Rahmah, kami mohon do'a agar senantiasa diberikan kelancaran dan keberkahan. - Agung & Hana`;
+const META_DESCRIPTION = `Dengan memohon Rahmat dan Ridho Illahi, untuk membentuk rumah tangga. Kami mohon do'a agar senantiasa diberikan kelancaran dan keberkahan.`;
 
 function MainLayout({ children }) {
   return (
@@ -19,13 +19,13 @@ function MainLayout({ children }) {
         <link rel="icon" type="image/png" href={Favicon} />
 
         {/* font and SEO tags */}
-        <meta property="og:title" content="The Wedding of Agung & Hana" />
-        <meta property="og:url" content="https://agunghana.com" />
-        <meta property="og:site_name" content="The Wedding of Agung & Hana" />
+        <meta property="og:title" content="Pernikahan Agung & Hana" />
+        <meta property="og:url" content="https://bit.ly/AgungHana2021" />
+        <meta property="og:site_name" content="Pernikahan Agung & Hana" />
         <meta property="og:description" content={META_DESCRIPTION} />
-        <meta name="twitter:title" content="The Wedding of Agung & Hana" />
+        <meta name="twitter:title" content="Pernikahan Agung & Hana" />
         <meta name="twitter:description" content={META_DESCRIPTION} />
-        <meta name="twitter:url" content="https://agunghana.com" />
+        <meta name="twitter:url" content="https://bit.ly/AgungHana2021" />
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:creator" content="@idindrakusuma" />
 

@@ -1,11 +1,11 @@
 import React from 'react';
 
-import IconMask from './assets/face-mask.png';
-import IconSocialDistancing from './assets/social-distancing.png';
-import IconGuest from './assets/parents.png';
-import IconDoctor from './assets/doctor.png';
-import IconClock from './assets/clock.png';
-import IconQRcode from './assets/qr.png';
+import IconMask from './assets/masker.png';
+import IconSocialDistancing from './assets/jaga-jarak.png';
+import IconCheck from './assets/cek-suhu.png';
+import IconWashHand from './assets/cuci-tangan.png';
+import IconShakeHand from './assets/tidak-jabat.png';
+import IconGather from './assets/tidak-berkerumun.png';
 import SectionBox from './SectionBox';
 
 function CovidSection() {
@@ -23,15 +23,12 @@ function CovidSection() {
         {/* BOX INFO */}
         <div className="row">
           <div className="col-md-10 col-md-offset-1">
-            <SectionBox icon={IconMask} text="Menggunakan Masker." />
-            <SectionBox icon={IconSocialDistancing} text="Mencuci Tangan." />
-            <SectionBox icon={IconGuest} text="Menjaga Jarak." />
-            <SectionBox
-              icon={IconDoctor}
-              text="Cek Suhu Tubuh. "
-            />
-            <SectionBox icon={IconQRcode} text="Tidak Berjabat Tangan. " />
-            <SectionBox icon={IconClock} text="Foto Bersama Berjarak." />
+            <SectionBox icon={IconMask} text="Menggunakan Masker" />
+            <SectionBox icon={IconWashHand} text="Mencuci Tangan" />
+            <SectionBox icon={IconSocialDistancing} text="Menjaga Jarak" />
+            <SectionBox icon={IconCheck} text="Cek Suhu Tubuh" />
+            <SectionBox icon={IconShakeHand} text="Tidak Berjabat Tangan" />
+            <SectionBox icon={IconGather} text="Foto Bersama Berjarak" />
           </div>
         </div>
       </div>

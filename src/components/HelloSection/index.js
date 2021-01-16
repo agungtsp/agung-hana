@@ -7,7 +7,7 @@ import Groom from '@assets/images/p-hana.jpg';
 import { styWrapper } from './styles';
 
 function HelloSection({ isInvitation }) {
-  const finalSubtitle = isInvitation ? '06 Febuari 2021, Grand Ballroom Hotel Ambhara (Lt. 1), Jakarta Selatan' : 'Sabtu, 06 Febuari 2021';
+  const finalSubtitle = isInvitation ? '06 Februari 2021, Grand Ballroom Hotel Ambhara (Lt. 1), Jakarta Selatan' : 'Sabtu, 06 Februari 2021';
 
   return (
     <Fragment>
@@ -15,7 +15,7 @@ function HelloSection({ isInvitation }) {
         <div className="container">
           <div className="row">
             <div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
-              <h2 className="main-font">Assalamualaikum Wr. Wb</h2>
+              <h2 className="main-font">Assalamu'alaikum Wr. Wb</h2>
               <h3 className="sub-title hs">{finalSubtitle}</h3>
               <p className="info">
                 Dengan memohon Rahmat dan Ridho Illahi, teriring niat menjalankan Sunnah Rasulullah ﷺ untuk membentuk
@@ -39,7 +39,7 @@ function HelloSection({ isInvitation }) {
             <p className="heart text-center">
               <i className="icon-heart2"></i>
             </p>
-            <div className="and-love">
+            <div className="and-love main-font">
               <i>&</i>
             </div>
             <div className="couple-half">
@@ -68,7 +68,7 @@ function HelloSection({ isInvitation }) {
                 <p className="info">
                   Maka dari itu, dengan segala kerendahan hati, kami mohon maaf jika belum bisa mengundang saudara/i
                   dihari bahagia kami. Sekiranya do'a dari saudara/i sudah lebih dari cukup bagi kami. Semoga kita semua
-                  selalu dalam lindungan Allah SWT. Aamiin ya rabbal allamiin..
+                  selalu dalam lindungan Allah SWT. Aamiin ya rabbal allamiin...
                 </p>
               </div>
             </div>

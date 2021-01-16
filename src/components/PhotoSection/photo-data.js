@@ -16,6 +16,14 @@ import Gallery10 from '@assets/images/gallery-10.jpg';
 import GalleryT10 from '@assets/images/gallery-10.jpg';
 import Gallery11 from '@assets/images/gallery-11.jpg';
 import GalleryT11 from '@assets/images/gallery-11.jpg';
+import Gallery12 from '@assets/images/gallery-12.jpg';
+import GalleryT12 from '@assets/images/gallery-12.jpg';
+import Gallery13 from '@assets/images/gallery-13.jpg';
+import GalleryT13 from '@assets/images/gallery-13.jpg';
+import Gallery14 from '@assets/images/gallery-14.jpg';
+import GalleryT14 from '@assets/images/gallery-14.jpg';
+import Gallery15 from '@assets/images/gallery-15.jpg';
+import GalleryT15 from '@assets/images/gallery-15.jpg';
 
 
 export const photos = [
@@ -54,5 +62,21 @@ export const photos = [
   {
     original: Gallery11,
     thumbnail: GalleryT11,
+  },
+  {
+    original: Gallery12,
+    thumbnail: GalleryT12,
+  },
+  {
+    original: Gallery13,
+    thumbnail: GalleryT13,
+  },
+  {
+    original: Gallery14,
+    thumbnail: GalleryT14,
+  },
+  {
+    original: Gallery15,
+    thumbnail: GalleryT15,
   },
 ];

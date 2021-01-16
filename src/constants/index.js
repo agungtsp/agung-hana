@@ -7,6 +7,6 @@ export const GOOGLE_MAPS_LINK = `https://goo.gl/maps/7hPjkcSofTNqUJEk6`;
 /**
  * Wedding time
  */
-export const EPOCH_START_EVENT = 1612602000;
-export const EPOCH_END_EVENT = 1612616400;
+export const EPOCH_START_EVENT = 1612576800;
+export const EPOCH_END_EVENT = 1612591200;
 export const UTC_WEDDING_TIME = '2021-02-06:06:00:00Z';
